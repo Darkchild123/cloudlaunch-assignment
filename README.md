@@ -1,6 +1,6 @@
-# 🌩️ CloudLaunch Assignment
+#  CloudLaunch Assignment
 
-## 📌 Project Overview
+##  Project Overview
 This project demonstrates:
 - Hosting a static website on **Amazon S3** with optional CloudFront distribution.
 - Creating IAM user and policies for fine-grained access control.
@@ -8,7 +8,7 @@ This project demonstrates:
 
 ---
 
-## 🚀 Task 1: Static Website Hosting
+## Task 1: Static Website Hosting
 - **S3 Buckets Created**:
     cloudlaunch-site-bucket-213 → Public static website hosting
     cloudlaunch-private-bucket-213 → Private bucket (no public access)
