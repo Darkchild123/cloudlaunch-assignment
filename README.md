@@ -26,10 +26,10 @@ This project demonstrates:
 Created user: **`cloudlaunch-user`**
 
 - **Policy Permissions**:
-  - `s3:ListBucket` on all three buckets
-  - `s3:GetObject` on site bucket
-  - `s3:GetObject` + `s3:PutObject` on private bucket
-  - ❌ No access to visible-only bucket objects
+  - s3:ListBucket` on all three buckets
+  - s3:GetObject` on site bucket
+  - s3:GetObject` + `s3:PutObject` on private bucket
+  -  No access to visible-only bucket objects
 
 Policy JSON: [policies/cloudlaunch-s3-policy.json](policies/cloudlaunch-s3-policy.json)  
 
@@ -50,8 +50,8 @@ Policy JSON: [policies/cloudlaunch-s3-policy.json](policies/cloudlaunch-s3-polic
 - **DB RT** (cloudlaunch-db-rt) → Local only (private)  
 
 ### Security Groups
-- `cloudlaunch-app-sg` → Allow HTTP (80) from 10.0.0.0/16  
-- `cloudlaunch-db-sg` → Allow MySQL (3306) only from App Subnet  
+- cloudlaunch-app-sg → Allow HTTP (80) from 10.0.0.0/16  
+- cloudlaunch-db-sg → Allow MySQL (3306) only from App Subnet  
 
 ### IAM Policy for Read-Only VPC Access
 Policy JSON: [policies/cloudlaunch-vpc-readonly.json](policies/cloudlaunch-vpc-readonly.json)
